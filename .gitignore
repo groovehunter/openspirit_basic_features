@@ -37,3 +37,4 @@ xmlrpc.php
 /themes
 
 *.tar
+/cache

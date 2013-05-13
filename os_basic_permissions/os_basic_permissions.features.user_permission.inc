@@ -220,6 +220,7 @@ function os_basic_permissions_user_default_permissions() {
     'name' => 'view devel_node_access information',
     'roles' => array(
       0 => 'administrator',
+      1 => 'superuser',
     ),
     'module' => 'devel_node_access',
   );
