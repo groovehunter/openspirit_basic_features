@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the os_basic_variables feature.
+ */
+
+include_once 'os_basic_variables.features.inc';
