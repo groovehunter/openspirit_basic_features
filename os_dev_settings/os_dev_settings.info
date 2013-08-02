@@ -1,0 +1,14 @@
+name = os_dev_settings
+description = settings for development and debugging
+core = 7.x
+package = Features
+php = 5.2.4
+version = 7.x-1.0
+project = os_dev_settings
+dependencies[] = devel
+dependencies[] = devel_node_access
+dependencies[] = fe_block
+features[fe_block_settings][] = devel-switch_user
+features[fe_block_settings][] = devel_node_access-dna_node
+features[fe_block_settings][] = devel_node_access-dna_user
+features[features_api][] = api:1
