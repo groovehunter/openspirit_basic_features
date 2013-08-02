@@ -1,7 +1,7 @@
 name = os_dev_settings
 description = settings for development and debugging
 core = 7.x
-package = Features
+package = openspirit
 php = 5.2.4
 version = 7.x-1.0
 project = os_dev_settings
