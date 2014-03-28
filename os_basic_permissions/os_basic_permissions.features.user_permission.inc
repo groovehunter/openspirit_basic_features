@@ -215,16 +215,6 @@ function os_basic_permissions_user_default_permissions() {
     'module' => 'devel',
   );
 
-  // Exported permission: view devel_node_access information.
-  $permissions['view devel_node_access information'] = array(
-    'name' => 'view devel_node_access information',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'superuser',
-    ),
-    'module' => 'devel_node_access',
-  );
-
   // Exported permission: view own unpublished content.
   $permissions['view own unpublished content'] = array(
     'name' => 'view own unpublished content',
